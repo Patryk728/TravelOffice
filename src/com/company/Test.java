@@ -7,10 +7,10 @@ public class Test {
         Customer customer = new Customer("Adam");
         Customer customer1 = new Customer("Piotr");
 
-        AboardTrip aboardTrip= new AboardTrip(new Date(2019, 10, 13), new Date(2019, 10, 20),"Hiszpania",2000.1);
-        DomesticTrip domesticTrip= new DomesticTrip(new Date(2019, 10, 13), new Date(2019, 10, 20),"Polska",2000.1);
-        aboardTrip.setInsurance(400.0);
-        domesticTrip.setOwnArrivalDiscount(200.0);
+        Trip aboardTrip= new AboardTrip(new Date(2019, 10, 13), new Date(2019, 10, 20),"Hiszpania",2000.1);
+        Trip domesticTrip= new DomesticTrip(new Date(2019, 10, 13), new Date(2019, 10, 20),"Polska",2000.1);
+        ((AboardTrip)aboardTrip).setInsurance(400.0);
+        ((DomesticTrip)domesticTrip).setOwnArrivalDiscount(200.0);
 
 
         TravelOffice travelOffice = new TravelOffice();
