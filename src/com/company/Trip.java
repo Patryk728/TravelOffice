@@ -15,7 +15,7 @@ public class Trip {
     }
 
     public String toString() {
-        return  " Mijesce wycieczki: "+destination +" poczatek: "+ start.toString() +" koniec: "+ end.toString()+" cena: "+getPrice().toString();
+        return  "Dane wycieczki: "+"\n"+"miejsce:"+destination +" poczatek: "+ start.toString() +" koniec: "+ end.toString()+" cena: "+getPrice().toString()+"\n";
     }
 
     public Double getPrice() {

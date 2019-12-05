@@ -18,6 +18,6 @@ public class Customer {
     }
 
     public String toString() {
-        return " Imie: "+name +"\n"+ adres.toString() +"\n"+ trip.toString();
+        return "Dane Klienta:"+"\n"+"Imie: "+name +"\n"+ adres.toString() +"\n"+ trip.toString();
     }
 }

@@ -12,7 +12,7 @@ public class Adress {
     }
 
     public String toString() {
-        return " Adres klienta: Ulica: "+ street +" kod pocztowy: " + zip +" Miasto: " + city+ " ";
+        return "Ulica: "+ street +" kod pocztowy: " + zip +" Miasto: " + city+ " ";
     }
 
 }
